@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['durian']
+
+roboflow:
+  workspace: durian-project
+  project: durian-project-bh6ts
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/durian-project/durian-project-bh6ts/dataset/5
